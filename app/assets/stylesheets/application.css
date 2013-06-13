@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+html,body {
+	background-color: #f2f2f2;
+}
+
+
+
+.image {
+	background-color: #f2f2f2;
+/*	margin-top: 100px;*/
+	margin-bottom: 40px;
+}
+
+.content-separator {
+	border-top: 1px solid #bababa;
+	clear: both;
+	margin: 40px 0 40px 0;
+	width: 100%;
+}
+
+.project-container{
+	border: 10px solid #ffffff;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.home-quote-content{
+	font-family: helvetica neue;
+	font-size: 1.3em;
+	font-weight: 200;
+	line-height: 1.75em;
+	text-align: right;
+}
+
+.home-quote-content-focus{
+	color: #FF9933;
+	font-family: bebas, helvetica;
+	font-size: 2.75em;
+}
+
+.category-icon{
+	padding-right: 20px;
+
+}
+
+.project-logos{
+	width: 200px;
+}
+
+.skill-logos{
+	width: 100px;
+	padding: 20px;
+}
+
+
+
+
+
+
