@@ -23,6 +23,7 @@ html,body {
 	background-color: #f2f2f2;
 /*	margin-top: 100px;*/
 	margin-bottom: 40px;
+	width: 60%;
 }
 
 .content-separator {
@@ -49,11 +50,12 @@ html,body {
 
 .home-quote-content-focus{
 	color: #FF9933;
-	font-family: bebas, helvetica;
+	font-family: helvetica neue, tahoma;
 	font-size: 2.75em;
 }
 
 .category-icon{
+/*	margin: -200px 0 0 -100px;*/
 	padding-right: 20px;
 
 }
