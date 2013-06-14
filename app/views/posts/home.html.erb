@@ -19,33 +19,44 @@
 
 <div class="content-separator"></div>
 
-<div class="row">
-	<div class="span5 project-container">
-		<%= link_to (image_tag('projects_icon.svg', :class => 'category-icon')), projects_url %>
+<!-- <div class="row"> -->
+	<div class="project-container center-icons">
+		<%= image_tag('projects_icon.svg', :class => 'category-icon')%>
+		<div class="category-separator"></div>
 		<%= link_to (image_tag('VIVE-LOGO.png', :class => 'project-logos')), 'http://www.viveproject.co'%>
-	</div>
-	
-	<div class="span5 project-container">
-		<%= link_to (image_tag('projects_icon.svg', :class => 'category-icon')), projects_url %>
+		<!-- <div class="category-separator"></div> -->
 		<%= link_to (image_tag('that1spot-logo.png', :class => 'project-logos')), 'http://that1spot.com'%>
 	</div>
 	
-	<div class="span10 project-container">
-		<%= link_to (image_tag('skills-icon.svg', :class => 'category-icon')), skills_url %>	
-		<%= image_tag('rails.png', :class => 'skill-logos')%>
-		<%= image_tag('illustrator_cs5_mnemonic_no_shadow_png.png', :class => 'skill-logos')%>
-		<%= image_tag('Adobe_Photoshop_CS5_icon.png', :class => 'skill-logos')%>
-		<%= image_tag('Google-Analytics-icon.png', :class => 'skill-logos')%>
+	<div class="project-container center-icons">
+		<%= link_to (image_tag('skills-icon.svg', :class => 'category-icon')), skills_url %></br></br>
 		<%= link_to 'See more >>', skills_url %>
+		<div class="category-separator"></div>
+		<%= link_to (image_tag('rails.png', :class => 'skill-logos')), skills_url%>
+		<%= link_to (image_tag('seo-icon.svg', :class => 'skill-logos')), skills_url%>
+		<%= link_to (image_tag('Google-Analytics-icon.png', :class => 'skill-logos')), skills_url%>
+		<%= link_to (image_tag('social-media-icon.svg', :class => 'skill-logos')), skills_url%>
+	 	<%= link_to (image_tag('Freddie_OG.png', :class => 'skill-logos')), skills_url%>
+		<%= link_to (image_tag('illustrator_cs5_mnemonic_no_shadow_png.png', :class => 'skill-logos')), skills_url%>
+		<%= link_to (image_tag('Adobe_Photoshop_CS5_icon.png', :class => 'skill-logos')), skills_url%></br>
+		<div class="category-text">
+			<%= link_to "& more ...", skills_url%>
+		</div>
 	</div>
 	
-	<div class="span10 project-container">
-		<%= link_to (image_tag('recs-icon.svg', :class => 'category-icon')), recs_url %>
-		<%= link_to (image_tag('linkedin-rec1.png')), recs_url %>
-		via LinkedIn - 
+	<div class="project-container center-icons">
+		<%= link_to (image_tag('recs-icon.svg', :class => 'category-icon')), recs_url %></br></br>
+		via LinkedIn 
 		<%= link_to 'See more >>', recs_url %>
+		<div class="category-separator"></div>
+		<%= link_to (image_tag('kent-rec.png', :class => 'rec-image')), recs_url %>
+		<%= link_to (image_tag('john-rec.png', :class => 'rec-image')), recs_url %>
+		<%= link_to (image_tag('sophie-rec.png', :class => 'rec-image')), recs_url %></br></br>
+		<div class="category-text">
+			<%= link_to "+ 2 >>", recs_url %>
+		</div>
 	</div>
-</div>
+<!-- </div> -->
 
 
 <div class="content-separator"></div>

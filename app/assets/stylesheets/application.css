@@ -17,7 +17,9 @@ html,body {
 	background-color: #f2f2f2;
 }
 
-
+.home-icon{
+	width: 55px;
+}
 
 .image {
 	background-color: #f2f2f2;
@@ -33,9 +35,16 @@ html,body {
 	width: 100%;
 }
 
+.category-separator {
+	border-top: 1px dashed #bababa;
+	clear: both;
+	margin: 20px 0 40px 0;
+	width: 100%;
+}
+
 .project-container{
-	border: 10px solid #ffffff;
-	margin-left: 20px;
+	border: 1px solid #bababa;
+/*	margin-left: 20px;*/
 	margin-top: 20px;
 	padding: 20px;
 }
@@ -54,14 +63,20 @@ html,body {
 	font-size: 2.75em;
 }
 
+.center-icons{
+	text-align: center;
+}
+
 .category-icon{
 /*	margin: -200px 0 0 -100px;*/
 	padding-right: 20px;
-
+	text-align: center;
 }
 
 .project-logos{
 	width: 200px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .skill-logos{
@@ -69,8 +84,20 @@ html,body {
 	padding: 20px;
 }
 
+.category-text{
+	color: #1384C7;
+	font-size: 2.0em;
+}
 
+.rec-image{
+	margin: 10px;
+}
 
-
+.skills-text{
+	font-family: helvetica neue, helvetica;
+	font-size: 1.4em;
+	font-weight: 200;
+	line-height: 2.0em;
+}
 
 
